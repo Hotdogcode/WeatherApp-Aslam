@@ -7,6 +7,7 @@ android {
     namespace 'com.hdc.ui'
     compileSdk 34
 
+
     defaultConfig {
         minSdk 24
         targetSdk 34
