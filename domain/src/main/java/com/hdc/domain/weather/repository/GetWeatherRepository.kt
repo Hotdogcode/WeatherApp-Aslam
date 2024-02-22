@@ -4,5 +4,5 @@ import com.hdc.domain.weather.model.WeatherRequestDomainModel
 import com.hdc.domain.weather.model.WeatherResponseDomainModel
 
 interface GetWeatherRepository {
-    fun getWeather(weather : WeatherRequestDomainModel): WeatherResponseDomainModel
+    fun getWeather(weather : String): WeatherResponseDomainModel
 }

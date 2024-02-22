@@ -10,8 +10,8 @@ import com.hdc.domain.weather.repository.GetWeatherRepository
 class GetWeatherUseCase(
     private val getWeatherRepository: GetWeatherRepository,
     coroutineContextProvider: CoroutineContextProvider
-):BackgroundExecutingUseCase<WeatherRequestDomainModel,WeatherResponseDomainModel>(coroutineContextProvider){
-    override fun executeInBack(request: WeatherRequestDomainModel) =
+):BackgroundExecutingUseCase<String,WeatherResponseDomainModel>(coroutineContextProvider){
+    override fun executeInBack(request: String) =
         getWeatherRepository.getWeather(request)
 
 }
