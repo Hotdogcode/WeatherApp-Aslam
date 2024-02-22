@@ -1,4 +1,8 @@
 package com.hdc.domain.architecture.coroutine
 
-class CoroutineContextProvider {
+import kotlin.coroutines.CoroutineContext
+
+interface CoroutineContextProvider {
+    val main : CoroutineContext
+    val io : CoroutineContext
 }
