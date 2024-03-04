@@ -1,0 +1,3 @@
+package com.hdc.ui.architecture
+
+interface BasePresentationToUIMapper

@@ -2,7 +2,6 @@ package com.hdc.domain.weather.usecase
 
 import com.hdc.domain.architecture.coroutine.CoroutineContextProvider
 import com.hdc.domain.architecture.usecase.BackgroundExecutingUseCase
-import com.hdc.domain.weather.model.WeatherRequestDomainModel
 import com.hdc.domain.weather.model.WeatherResponseDomainModel
 import com.hdc.domain.weather.repository.GetWeatherRepository
 
